@@ -1,0 +1,94 @@
+/* tipografia */
+p.destaque, section#pizza p.destaque {
+    width:90%;
+
+}
+/* HEADER */
+nav {
+    width: 100%;
+    left: 0;
+}
+nav ul li a {
+    padding: 10px 15px;
+}
+nav div {
+    margin-top: 35px;
+    width: 110px;
+    height: 80px;
+ }
+
+.itensEstatico {
+     padding: 10px 10px;
+ }
+
+ .logoEstatico {
+     margin-left: 0px;
+     margin-top: 0px;
+
+ }
+
+ nav ion-icon {
+     margin-right: 10px;
+ }
+
+
+/* domingo perfeito */
+
+div#domingo-perfeito-esquerda, div#domingo-perfeito-direita {
+    display: none;
+}
+
+div#domingo-perfeito-centro {
+    width: 95%;
+
+}
+
+div#pontos-chaves-mestre {
+    width: 100%;
+}
+
+/* pizza */
+
+div#pizza-opcoes-mestre {
+    width: 95%;
+}
+
+/* testemunhos */
+
+div#testemunha-esquerda, div#testemunha-direita {
+    display: none;
+}
+
+div#testemunha-centro {
+    width: 680px;
+}
+
+div#transicao-testemunha-plano {
+    display:none;
+}
+
+/* planos */
+
+div#planos-janela {
+    width: 100%;
+}
+
+div.planos {
+    margin: 80px 15px;
+
+}
+
+/* FOOTER */
+
+div#pizza-rodape-decoracao {
+    display: none;
+}
+
+div#info {
+    margin-right: 165px;
+}
+
+footer div#redes-sociais ion-icon {
+    height: 100%;
+    width: 10%;
+}

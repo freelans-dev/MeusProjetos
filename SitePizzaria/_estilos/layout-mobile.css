@@ -1,0 +1,123 @@
+
+/* TIPOGRAFIA */
+header div#chamada h1 {
+    font-size: 200%;
+}
+
+header div#chamada h4 {
+    font-size: 180%;
+}
+
+header div#chamada a {
+    border-radius: 0;
+    width: 60%;
+    font-size: 75%;
+    padding: 15px 10px 15px;
+}
+
+h2 {
+    font-size: 200%;
+}
+
+
+/* NAV */
+
+nav ul {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: left;
+}
+
+nav ul#esquerda, nav ul#direita {
+    display: none;
+    position: absolute;
+    top: 40px; right: 30px;
+    background-color: black;
+    
+}
+
+nav ul#direita {
+    top:192px;
+}
+
+nav ul#icone-menu-mobile {
+    display: inline;
+    margin-right: 10px;
+}
+
+
+nav ul li a, nav ul li a#criar-conta, .itensEstatico, .iconeEstatico {
+    display: block;
+    color:white;
+    text-decoration:none;
+    padding:10px 20px;
+    border-radius: 0;
+    border: none;
+    font-size:80%;
+}
+
+
+/* DOMINGO PERFEITO */
+div#pontos-chaves-mestre {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+div.pontos-chaves {
+    width: 85%;
+    margin-bottom: 40px;
+}
+
+div.pontos-chaves p {
+    font-size: 110%;
+    font-weight: 300;
+    line-height: 2em;
+}
+
+
+/* TESTEMUNHOS */
+section#testemunha p.destaque {
+   width: 90%;
+   font-size: 120%;
+}
+
+div#testemunha-centro {
+    width: 340px;
+}
+
+
+/* PLANOS */
+
+section#plano-principal {
+    height: inherit;
+}
+
+div#planos-janela {
+    width:80%;
+    margin:30px auto;
+
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+}
+
+div.planos {
+    width:290px;
+    margin: 20px;
+
+}
+
+/* FOOTER */
+
+footer div#mapa {
+    display: none;
+}
+
+footer div#info {
+    width: 250%;
+}
